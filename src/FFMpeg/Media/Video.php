@@ -106,6 +106,8 @@ class Video extends Audio
             $commands[] = '4';
             $commands[] = '-trellis';
             $commands[] = '1';
+            $commands[] = '-strict';
+            $commands[] = 'experimental';
         }
 
         if ($format instanceof AudioInterface) {
